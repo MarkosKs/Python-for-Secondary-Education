@@ -3,7 +3,7 @@
 # [Υπόδειξη: Μπορούμε να διατρέξουμε τα κλειδιά ενός λεξικού d σε ταξινομημένη σειρά χρησιμοποιώντας την sorted(D).]
 
 
-text=open("romeo.txt")
+text = open(r"C:\Users\user\Documents\GitHub\Python-for-Secondary-Education\Αρχεία (Files)\romeo.txt", "r", encoding="utf-8")
 kaka=text.read()
 print(kaka)
 words=[]

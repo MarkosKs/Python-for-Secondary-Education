@@ -1,6 +1,6 @@
 # Συνάρτηση που δέχεται ως όρισμα μια διαδρομή(path) και επιστρέφει τα περιεχόμενα
 # του τελικού φακέλου ως μια λίστα αρχείων
-
+import os
 def show_file_list(path):
         file_list=os.listdir()
         return file_list
